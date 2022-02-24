@@ -12,5 +12,6 @@ struct MovieInfo: Decodable {
     let original_title: String
     let description: String
     let release_date: String
-    let image: String
+//    let image: String
+    let movie_banner: String
 }
