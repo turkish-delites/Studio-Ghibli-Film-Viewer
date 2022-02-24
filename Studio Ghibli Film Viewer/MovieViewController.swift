@@ -15,10 +15,15 @@ class MovieViewController: UIViewController {
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var releaseDateLabel: UILabel!
     
+    var movie: MovieInfo?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        titleLabel.text = movie?.title
+        origTitleLabel.text = movie?.original_title
+        descriptionLabel.text = movie?.description
+        releaseDateLabel.text = movie?.release_date
     }
     
 
