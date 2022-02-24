@@ -9,6 +9,12 @@ import UIKit
 
 class MovieViewController: UIViewController {
 
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var origTitleLabel: UILabel!
+    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var releaseDateLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

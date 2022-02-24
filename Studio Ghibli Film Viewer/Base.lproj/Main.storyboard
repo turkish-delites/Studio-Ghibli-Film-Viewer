@@ -32,6 +32,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Grj-P5-QcM"/>
                     <connections>
+                        <outlet property="tableView" destination="1Mh-Nn-W2D" id="dKm-in-iky"/>
                         <segue destination="Yzj-lf-SnM" kind="show" identifier="showDetails" id="4k6-hY-pBB"/>
                     </connections>
                 </viewController>
@@ -39,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="114.50892857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie View Controller-->
         <scene sceneID="z81-bV-1T0">
             <objects>
-                <viewController id="Yzj-lf-SnM" sceneMemberID="viewController">
+                <viewController id="Yzj-lf-SnM" customClass="MovieViewController" customModule="Studio_Ghibli_Film_Viewer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5fd-Ci-LeH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -84,6 +85,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="BVr-2u-Fix"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="3Ka-tj-0fl" id="3ev-re-PK4"/>
+                        <outlet property="imageView" destination="sF4-GF-j9f" id="9x9-uc-PTl"/>
+                        <outlet property="nameLabel" destination="UV2-QR-5S6" id="uOY-Cz-0iX"/>
+                        <outlet property="origTitleLabel" destination="bgf-ro-GMm" id="fm5-Oa-qEl"/>
+                        <outlet property="releaseDateLabel" destination="g18-xW-cpT" id="Puc-V2-Ebf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HXE-9J-yeK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -14,6 +14,7 @@
 		8342A8D127C81F6E0061B0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8342A8D027C81F6E0061B0E6 /* Assets.xcassets */; };
 		8342A8D427C81F6E0061B0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8342A8D227C81F6E0061B0E6 /* LaunchScreen.storyboard */; };
 		8342A8DC27C827530061B0E6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342A8DB27C827530061B0E6 /* MovieViewController.swift */; };
+		8342A8DE27C82A2F0061B0E6 /* MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342A8DD27C82A2F0061B0E6 /* MovieInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8342A8D327C81F6E0061B0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8342A8D527C81F6E0061B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8342A8DB27C827530061B0E6 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		8342A8DD27C82A2F0061B0E6 /* MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8342A8D027C81F6E0061B0E6 /* Assets.xcassets */,
 				8342A8D227C81F6E0061B0E6 /* LaunchScreen.storyboard */,
 				8342A8D527C81F6E0061B0E6 /* Info.plist */,
+				8342A8DD27C82A2F0061B0E6 /* MovieInfo.swift */,
 			);
 			path = "Studio Ghibli Film Viewer";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8342A8CC27C81F6D0061B0E6 /* ViewController.swift in Sources */,
+				8342A8DE27C82A2F0061B0E6 /* MovieInfo.swift in Sources */,
 				8342A8C827C81F6D0061B0E6 /* AppDelegate.swift in Sources */,
 				8342A8CA27C81F6D0061B0E6 /* SceneDelegate.swift in Sources */,
 				8342A8DC27C827530061B0E6 /* MovieViewController.swift in Sources */,
