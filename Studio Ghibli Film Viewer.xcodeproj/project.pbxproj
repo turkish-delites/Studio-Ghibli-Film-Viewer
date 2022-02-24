@@ -13,6 +13,7 @@
 		8342A8CF27C81F6D0061B0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8342A8CD27C81F6D0061B0E6 /* Main.storyboard */; };
 		8342A8D127C81F6E0061B0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8342A8D027C81F6E0061B0E6 /* Assets.xcassets */; };
 		8342A8D427C81F6E0061B0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8342A8D227C81F6E0061B0E6 /* LaunchScreen.storyboard */; };
+		8342A8DC27C827530061B0E6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342A8DB27C827530061B0E6 /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8342A8D027C81F6E0061B0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8342A8D327C81F6E0061B0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8342A8D527C81F6E0061B0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8342A8DB27C827530061B0E6 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8342A8C727C81F6D0061B0E6 /* AppDelegate.swift */,
 				8342A8C927C81F6D0061B0E6 /* SceneDelegate.swift */,
 				8342A8CB27C81F6D0061B0E6 /* ViewController.swift */,
+				8342A8DB27C827530061B0E6 /* MovieViewController.swift */,
 				8342A8CD27C81F6D0061B0E6 /* Main.storyboard */,
 				8342A8D027C81F6E0061B0E6 /* Assets.xcassets */,
 				8342A8D227C81F6E0061B0E6 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				8342A8CC27C81F6D0061B0E6 /* ViewController.swift in Sources */,
 				8342A8C827C81F6D0061B0E6 /* AppDelegate.swift in Sources */,
 				8342A8CA27C81F6D0061B0E6 /* SceneDelegate.swift in Sources */,
+				8342A8DC27C827530061B0E6 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
